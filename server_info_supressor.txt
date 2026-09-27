@@ -1,0 +1,7 @@
+moge@livax.local:~/lindow2_hardctrl_test/lindow-hard-ctrl $ ls hoge
+moge@livax.local:~/lindow2_hardctrl_test/lindow-hard-ctrl $ cd /etc/systemd
+moge@livax.local:~/lindow2_hardctrl_test/lindow-hard-ctrl $ gcc hoge.cpp
+moge@livax.local:~/lindow2_hardctrl_test/lindow-hard-ctrl $ vi /etc/default/keyboard
+
+# user@server infomation supressor script
+cat memo | sed 's/^.* \$/hooge@desk.local \$/g'
